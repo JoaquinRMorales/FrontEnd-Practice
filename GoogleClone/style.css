@@ -132,4 +132,28 @@ footer {
     bottom: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 14px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-izq {
+    justify-self: left;
+}
+
+footer .footer-der {
+    justify-self: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: rgb(112, 117, 122);
 }
